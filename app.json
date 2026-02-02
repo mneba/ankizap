@@ -1,0 +1,44 @@
+{
+  "expo": {
+    "name": "WordFlow",
+    "slug": "wordflow",
+    "version": "1.0.0",
+    "orientation": "portrait",
+    "icon": "./assets/icon.png",
+    "scheme": "wordflow",
+    "userInterfaceStyle": "dark",
+    "newArchEnabled": true,
+    "splash": {
+      "backgroundColor": "#0A0A1A",
+      "resizeMode": "contain"
+    },
+    "android": {
+      "adaptiveIcon": {
+        "backgroundColor": "#0A0A1A"
+      },
+      "package": "com.wordflow.app",
+      "permissions": ["NOTIFICATIONS", "VIBRATE"]
+    },
+    "plugins": [
+      "expo-router",
+      "expo-font",
+      "expo-secure-store",
+      [
+        "expo-notifications",
+        {
+          "color": "#6C5CE7"
+        }
+      ]
+    ],
+    "experiments": {
+      "typedRoutes": true
+    },
+    "extra": {
+      "eas": {
+        "projectId": "SEU-PROJECT-ID"
+      },
+      "supabaseUrl": "https://iashlxsgjxzlquxliqab.supabase.co",
+      "supabaseAnonKey": "eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJpc3MiOiJzdXBhYmFzZSIsInJlZiI6Imlhc2hseHNnanp6bHF1eGxpcWFiIiwicm9sZSI6ImFub24iLCJpYXQiOjE3MzIzMDE2NDYsImV4cCI6MjA0Nzg3NzY0Nn0.VlSFAz5VlGEUyOIviTBrRMyjdZOEQVU-y0TdaJjoJl4"
+    }
+  }
+}
